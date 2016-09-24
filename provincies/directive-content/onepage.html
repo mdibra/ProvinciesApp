@@ -1,0 +1,12 @@
+<div>
+	<a class="btn btn-info btn-lg" href="#/">Back home</a>
+	<h2 class="text-success">{{getprovincies[single].name}} provincie:</h2>
+	<p class="lead bg-success">{{getprovincies[single].description}}</p>
+	<div class="go-left">
+		<h3 class="text-info">{{getprovincies[single].capital.name}}, the capital of {{getprovincies[single].name}}:</h3>
+		<p class="lead bg-info">{{getprovincies[single].capital.description}}</p>
+	</div>
+	<div>
+		<img ng-src="{{getprovincies[single].image}}">
+	</div>
+</div>

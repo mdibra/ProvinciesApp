@@ -1,0 +1,8 @@
+<div>
+	<br><input type="text" ng-model="name" class="input-lg form-control" placeholder="search provincie"><br>
+	<ul class="list-group">
+		<a class=" list-group-item " href="#/single/{{getprovincies.indexOf(pro)}}" ng-repeat="pro in getprovincies | filter:name">
+		<h2 class="text-primary">{{pro.name}} provincie</h2>
+		</a>
+	</ul>
+</div>
